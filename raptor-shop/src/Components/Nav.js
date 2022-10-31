@@ -1,33 +1,34 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom';
 import logo from '../Img/logo.png';
+import '../Styles/Nav.css';
 
 const Nav = () => {
     return (
         <>
-        <div className="container">
-            <img className="logo" src={logo} alt={"logo"}></img>
+        <div class="cabecera">
+            <img class="logo" src={logo} alt={"logo"}></img>
 
-            <nav >
-                <ul >
-                    <li >
-                        <Link as={Link} to="/ingresarProducto">Ingresar Productos</Link>
+            <nav class="menu">
+                <ul class="menu-lista">
+                    <li class="menu-items">
+                        <Link class="menu-link" as={Link} to="/ingresarProducto">Ingresar Productos</Link>
                     </li>
 
-                    <li >
-                        <Link as={Link} to="/listaProductos">Lista Productos</Link>
+                    <li class="menu-items">
+                        <Link class="menu-link" as={Link} to="/listaProductos">Lista Productos</Link>
                     </li>
 
-                    <li >
-                        <Link as={Link} to="/ventasRealizadas">Ventas</Link>
+                    <li class="menu-items">
+                        <Link class="menu-link" as={Link} to="/ventasRealizadas">Ventas</Link>
                     </li>
 
-                    <li >
-                        <Link as={Link} to="/selecionarProductos">Seleccionar productos</Link>
+                    <li class="menu-items">
+                        <Link class="menu-link" as={Link} to="/selecionarProductos">Seleccionar productos</Link>
                     </li>
 
-                    <li>
-                        <Link  as={Link} to="/carritoCompras">Carrito</Link>
+                    <li class="menu-items">
+                        <Link class="menu-link" as={Link} to="/carritoCompras">Carrito</Link>
                     </li>
                  </ul>
             </nav>
