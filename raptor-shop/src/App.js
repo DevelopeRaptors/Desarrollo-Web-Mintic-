@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import './App.css';
+import './Styles/ListaProductos.css';
 
 //Se importan los componentes creados
 import Nav from './Components/Nav';
