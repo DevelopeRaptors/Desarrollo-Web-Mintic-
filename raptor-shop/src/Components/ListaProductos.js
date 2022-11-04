@@ -18,9 +18,8 @@ export default class ListaProductos extends React.Component{
                         <div>
                             <p>Precio: $100</p>
                             <p>Inventario: 15 und</p>
+                            <p>Productos restantes: 15</p>
                         </div>
-                        <button> COMPRAR
-                        </button>
                     </div>
                 </div>
                 <div class="populares__card">
@@ -36,9 +35,9 @@ export default class ListaProductos extends React.Component{
                         <div>
                             <p>Precio: $500</p>
                             <p>Inventario: 25 und</p>
+                            <p>Productos restantes: 25</p>
                         </div>
-                        <button class="botones-comprar"> COMPRAR
-                        </button>
+                        
                     </div>
                 </div>
                 <div class="populares__card">
@@ -54,9 +53,8 @@ export default class ListaProductos extends React.Component{
                         <div>
                             <p>Precio: $350</p>
                             <p>Inventario: 5 und</p>
+                            <p>Productos restantes: 5</p>
                         </div>
-                        <button> COMPRAR
-                        </button>
                     </div>
                 </div>
                 <div class="populares__card">
@@ -71,9 +69,9 @@ export default class ListaProductos extends React.Component{
                         <div>
                             <p>Precio: $10</p>
                             <p>Inventario: 5 und</p>
+                            <p>Productos restantes: 5</p>
                         </div>
-                        <button> COMPRAR
-                        </button>
+                        
                     </div>
                 </div>
             </div>
