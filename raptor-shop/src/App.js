@@ -10,6 +10,7 @@ import VentasRealizadas from './Components/VentasRealizadas';
 import SelecionarProductos from './Components/SelecionarProductos';
 import CarritoCompras from './Components/CarritoCompras';
 
+
 function App() {
   return (
     <>

@@ -15,6 +15,10 @@ export default class ListaProductos extends React.Component{
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.
                             </p>                           
                         </div>
+                        <div>
+                            <p>Precio: $100</p>
+                            <p>Inventario: 15 und</p>
+                        </div>
                         <button> COMPRAR
                         </button>
                     </div>
@@ -28,6 +32,10 @@ export default class ListaProductos extends React.Component{
                         <div class="populares__card___descripcion">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.
                             </p>                            
+                        </div>
+                        <div>
+                            <p>Precio: $500</p>
+                            <p>Inventario: 25 und</p>
                         </div>
                         <button class="botones-comprar"> COMPRAR
                         </button>
@@ -43,6 +51,10 @@ export default class ListaProductos extends React.Component{
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.
                             </p>                           
                         </div>
+                        <div>
+                            <p>Precio: $350</p>
+                            <p>Inventario: 5 und</p>
+                        </div>
                         <button> COMPRAR
                         </button>
                     </div>
@@ -55,6 +67,10 @@ export default class ListaProductos extends React.Component{
                         </div>
                         <div class="populares__card___descripcion">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aut.</p>                           
+                        </div>
+                        <div>
+                            <p>Precio: $10</p>
+                            <p>Inventario: 5 und</p>
                         </div>
                         <button> COMPRAR
                         </button>
